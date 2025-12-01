@@ -1,0 +1,5 @@
+services:
+  stock-trace:
+    image: bastianelli-mic/stock-trace:1.0.0-SNAPSHOT
+    ports:
+      - 8100:8080
